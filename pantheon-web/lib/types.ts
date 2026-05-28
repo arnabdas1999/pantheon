@@ -6,6 +6,7 @@ export type AgentStatus =
   | "thinking"
   | "searching"
   | "streaming"
+  | "stream_reset"
   | "reflexion"
   | "done"
   | "retry"
